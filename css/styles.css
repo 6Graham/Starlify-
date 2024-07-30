@@ -1,4 +1,6 @@
-/* General Styles */
+/* estrella es una pendeja y ya me tiene hasta la verga */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -284,7 +286,6 @@ table tr:nth-child(even) {
     cursor: pointer;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -326,7 +327,7 @@ table tr:nth-child(even) {
 
 
     .sidebar nav ul li:nth-last-child(-n+1) {
-        display: none; /* Oculta los dos últimos botones */
+        display: none; 
     }
 
     .sidebar nav ul li i {
@@ -366,7 +367,6 @@ table tr:nth-child(even) {
     }
 }
 
-/* Animations */
 @keyframes slideInLeft {
     from {
         transform: translateX(-100%);
@@ -404,7 +404,6 @@ table tr:nth-child(even) {
 }
 
 
-/* Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
